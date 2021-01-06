@@ -8,7 +8,7 @@ import ast
 import traceback
 INTENTS = discord.Intents.all()
 
-client = commands.Bot(command_prefix=';')
+client = commands.Bot(command_prefix=';', intents=INTENTS)
 
 token = 'token'
 
